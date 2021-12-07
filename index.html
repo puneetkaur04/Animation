@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            
+            position: relative;
+            width: 400px;
+            height: 400px;
+            left: float;
+        }
+
+        .front{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .front img{
+            position: absolute;
+            width: 410px;
+            height: 410px;
+        }
+
+        .front:hover{
+            width: 100px;
+            height: 100px;
+            top: 150px;
+            left: 300px;
+        }
+
+        .front:hover img{
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            margin-left: 55px;
+        }
+
+        .backContainer{
+            position: absolute;
+            background-image: linear-gradient(coral, salmon);
+            border: solid 5px;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -2;
+        }
+
+        .heading{
+            padding: 60px;
+            text-align: center;
+        }
+
+        .description{
+            margin-left: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class = "front">
+            <img src="friends.jpeg" alt="friendship">
+        </div>
+        <div class = "backContainer">
+            <div class = "content">
+                <div class = "heading">
+                    <h2> Friendship Day </h2>
+                </div>
+                <div class="description">
+                    <p> Squad Goals! <br> Friendship is another word for love. <br> #bestfriends </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
